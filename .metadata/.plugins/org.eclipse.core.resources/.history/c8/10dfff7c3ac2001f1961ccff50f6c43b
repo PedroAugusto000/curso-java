@@ -1,0 +1,21 @@
+package entities;
+
+public class Product {
+
+	private Integer id;
+	private String nome;
+	private Double salary;
+	
+	public Product() {
+	}
+
+	public Product(Integer id, String nome, Double salary) {
+		this.id = id;
+		this.nome = nome;
+		this.salary = salary;
+	}
+	
+	
+	
+	
+}

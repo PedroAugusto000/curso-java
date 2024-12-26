@@ -1,0 +1,13 @@
+package entities;
+
+public class Product {
+
+	private Integer id;
+	private String nome;
+	private Double salary;
+	
+	public Product() {
+	}
+	
+	
+}

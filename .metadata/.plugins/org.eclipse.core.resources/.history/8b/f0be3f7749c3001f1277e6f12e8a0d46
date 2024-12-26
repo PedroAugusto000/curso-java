@@ -1,0 +1,17 @@
+package application;
+
+public class Program {
+	public static void main(String[] args) {
+	
+		System.out.println("====Enter cliente data====");
+		
+		System.out.println("Name: ");
+		System.out.println("Email: ");
+		System.out.println("Birth date (DD/MM/YYYY): ");
+		System.out.println("Enter order status: ");
+		System.out.println("");
+		
+		System.out.println("How many items to this order: ");
+		System.out.println("");
+	}
+}

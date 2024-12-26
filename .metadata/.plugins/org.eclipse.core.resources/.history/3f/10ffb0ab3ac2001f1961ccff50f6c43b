@@ -1,0 +1,31 @@
+package application;
+
+import java.util.Scanner;
+import entities.Product;
+public class Program {
+	public static void main(String[] args) {
+		
+		List<Product>
+		Scanner sc = new Scanner(System.in);
+		
+	System.out.println("Quantos produtos seram cadastrados: ");
+	int n = sc.nextInt();
+	
+	for(int i = 1; i <= n; i++) {
+		System.out.println("-----PRODUTO #" + i + "-----");
+		
+		System.out.println("Informe o ID do produto: ");
+		int id = sc.nextInt();
+		
+		System.out.println("Informe o nome do produto: ");
+		sc.nextLine();
+		String nome = sc.nextLine();
+		
+		System.out.println("Informe o preço do produto: ");
+		double preco = sc.nextDouble();
+		
+		System.out.println("");
+	}
+	
+	}
+}
