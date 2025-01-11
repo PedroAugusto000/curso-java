@@ -1,0 +1,14 @@
+*A partir do Java 8, interfaces podem ter "default methods" ou "defender methods". Isso possui implicações conceituais e práticas, que serão discutidas mais à frente neste capítulo*
+
+Interface é um tipo que define um conjunto de operação que uma classe deve implementar. A interface estabelece um contrato que a classe deve cumprir
+
+interface Shape {
+	double area();
+	double perimeter();
+}
+
+Pra quê?
+- Criar sistemas com baixo acomplamento e flexíveis
+
+
+ 
